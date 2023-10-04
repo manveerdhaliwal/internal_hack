@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Your Certificate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <style>
+         
+    </style>
+    <header>
+       
+        <h1>Get your certificate</h1>
+        
+    </header>
+    <main>
+
+        <div class="input-form">
+        Enter Name<input required type="text" placeholder="NAME" id="name" minlength="3"
+            maxlength="20">
+        Enter Society<input required type="text" placeholder="SOCIETY NAME" id="society" minlength="3"
+            maxlength="16">
+        Enter Event<input required type="text" placeholder="EVENT NAME" id="event" minlength="3"
+            maxlength="16">
+        Event Date<input required type="date" placeholder="DATE" id="date" >
+        
+        <Button id="submitBtn">Get Certificate</Button>
+</div>
+
+    </main>
+    <script src="https://unpkg.com/pdf-lib@1.4.0"></script>
+    <script src="./FileSaver.js"></script>
+    <script src="https://unpkg.com/@pdf-lib/fontkit@0.0.4"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
